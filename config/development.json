@@ -1,5 +1,5 @@
 {
-    "MONGODB_URI" : "mongodb://127.0.0.1:27017",
+    "MONGODB_URI" : "mongodb+srv://upretianish:Anish007@mycluster.zek8yeu.mongodb.net",
     "PORT" : "8000",
     "SECRET_KEY" : "kasailai_na_bhannu"
 }
