@@ -18,9 +18,9 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cp())
 app.use(cors({
-    origin : "http://localhost:5173",
-    credentials : true
-}))
+    origin: ["http://localhost:5173", "http://3.88.142.205"], // add your server IP or domain
+    credentials: true
+}));
 
 
 app.use("/user" , userRouter)
