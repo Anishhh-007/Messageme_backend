@@ -1,5 +1,14 @@
-{
-  
+
+  {
+  "name": "messageme-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+
+
   "dependencies": {
     "bcrypt": "^6.0.0",
     "config": "^4.1.1",
@@ -13,4 +22,5 @@
     "sharp": "^0.34.3",
     "socket.io": "^4.8.1"
   }
-}
+
+  }
